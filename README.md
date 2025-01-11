@@ -17,7 +17,8 @@
       }
       return occ<=k;
     }
-}```
+}
+```
 1. **Initialization:**
    - `n`: Length of the input string `s`.
    - `occ`: Counter for the number of characters with odd occurrences.
