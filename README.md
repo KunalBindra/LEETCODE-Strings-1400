@@ -1,13 +1,5 @@
 # Check If a String Can Be Formed by Reorganizing Characters
-
-**Description:**
-
-This Java class implements a solution to the problem of determining whether a given string can be formed by reorganizing its characters such that no two adjacent characters are the same.
-
 **Solution:**
-
-The `canConstruct` method checks if the given string `s` can be reorganized to meet the condition where no two adjacent characters are the same. 
-
 1. **Initialization:**
    - `n`: Length of the input string `s`.
    - `occ`: Counter for the number of characters with odd occurrences.
