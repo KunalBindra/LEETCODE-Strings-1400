@@ -1,6 +1,6 @@
 # Check If a String Can Be Formed by Reorganizing Characters
 **Solution:**
-class Solution {
+```class Solution {
     public boolean canConstruct(String s, int k) {
       int n=s.length();
       int occ=0;
@@ -17,7 +17,7 @@ class Solution {
       }
       return occ<=k;
     }
-}
+}```
 1. **Initialization:**
    - `n`: Length of the input string `s`.
    - `occ`: Counter for the number of characters with odd occurrences.
