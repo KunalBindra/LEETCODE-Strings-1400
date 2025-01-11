@@ -1,5 +1,5 @@
 # Check If a String Can Be Formed by Reorganizing Characters
-**Solution:** I Know
+**Solution:** 
 ```class Solution {
     public boolean canConstruct(String s, int k) {
       int n=s.length();
